@@ -1,0 +1,21 @@
+@import '../../../assets/assets/utils/variables';
+
+.card {
+    height: 60vh;
+    border-radius: 0.9rem;
+    background-color: $white;
+    padding: 1.2rem;
+    margin: 1rem;
+
+    &__title {
+        color: $mariane-blue;
+        font-weight: $font-bold;
+        font-size: 1.5rem;
+    }
+
+    &__description {
+        color: $light-gray;
+        font-weight: $font-light;
+        font-size: 1rem;
+    }
+}
